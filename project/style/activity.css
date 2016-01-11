@@ -1,0 +1,53 @@
+.header_img{
+    width: 56px;
+    height: 56px;
+    background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/male.png');
+    background-size: cover;
+    margin: 10px;
+    float: left;
+
+}
+.header_title{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.carrots_right{
+    float: right;
+    width: 16px;
+    height: 30px;
+    background-image: url("http://7xngw8.com1.z0.glb.clouddn.com/carrot.png");
+    background-size: cover;
+}
+.carrots_left{
+    float: left;
+    width: 16px;
+    height: 30px;
+    background-image: url("http://7xngw8.com1.z0.glb.clouddn.com/carrot.png");
+    background-size: cover;
+}
+.carrots{
+    width: 16px;
+    height: 30px;
+    background-image: url("http://7xngw8.com1.z0.glb.clouddn.com/carrot.png");
+    background-size: cover;
+}
+
+.big_carrots{
+    width: 28px;
+    height: 28px;
+    background-image: url("http://7xngw8.com1.z0.glb.clouddn.com/goods_list_top.png");
+    background-size: cover;
+    border: none;
+    border-radius: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.border_style{
+    border: 1px solid #ff4040;
+    border-radius: 30px;
+    padding: 20px;
+}
+

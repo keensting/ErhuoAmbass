@@ -1,0 +1,290 @@
+.Elogin_block{
+    float: right;
+    margin: 10px;
+    height: 60px;
+    width: auto;;
+    /*background-color: cyan;*/
+    text-align: center;
+    padding-top: 40px;
+}
+.Eheader{
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    background-color: white;
+    border-bottom: 1px solid #ff4040;
+}
+.Epanel{
+    padding: 20px;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    padding-bottom: 80px;
+    left: 35%;
+    top:25%;
+    border: 1px solid #ff4040;
+    border-radius: 10px;
+    text-align: center;
+}
+.Elogin_success{
+    position: absolute;
+    z-index: 100;
+    width: 100px;
+    margin-top:300px;
+    margin-left: 46%;
+    /*margin-right: auto;*/
+    /*left: 42%;*/
+    height: 100px;
+    background-image: url("http://7xkung.com1.z0.glb.clouddn.com/ok.png");
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    background-size:cover ;
+}
+.Elogin_denied{
+    position: absolute;
+    z-index: 100;
+    width: 100px;
+    margin-top:300px;
+    margin-left: 46%;
+    /*margin-right: auto;*/
+    /*left: 42%;*/
+    height: 100px;
+    background-image: url("http://7xkung.com1.z0.glb.clouddn.com/forbid.png");
+    -webkit-background-size:cover ;
+    -moz-background-size:cover ;
+    background-size:cover ;
+}
+/*ÐÇ¼¶µÄ*/
+.star{
+    float: left;
+    height: 30px;
+    width: 18px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/carrot.png');
+    background-size: cover;
+}
+.admin{
+    height: 30px;
+    width: 20px;
+    float: left;
+    background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/admin.png');
+    background-size: cover;
+}
+.manager{
+    height: 30px;
+    width: 20px;
+    float: left;
+    background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/ma1.png');
+    background-size: cover;
+}
+.Elogin_out{
+    position: relative;
+    width: auto;
+    height:40px;
+    /*background-image:url("http://7xkung.com1.z0.glb.clouddn.com/logout.gif") ;*/
+    /*background-size: cover;*/
+    float: right;
+}
+.Elogin_name{
+    float: left;
+    padding: 10px;
+}
+
+.Esearch_condition{
+    position: absolute;
+    top:100px;
+    width: 70%;
+    left: 15%;
+    border-bottom: 1px solid #ff4040;
+}
+.Enav_table{
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.Ecounter_tab{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    top:200px;
+    width: 80%;
+    left: 10%;
+    border-bottom: 1px solid #ff4040;
+}
+.Ecounter_tab table{
+    border-top: 1px solid #ff4040;
+    position: relative;
+    width: 65%;
+    text-align: center;
+    float: left;
+}
+.Ecounter_tab td{
+    border-bottom: 1px solid #878a88;
+
+}
+.Ecounter_tab_right{
+    margin-top: 20px;
+    position: relative;
+    float: right;
+}
+.Edata_display{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    top:300px;
+    width: 80%;
+    left: 10%;
+    height: 650px;
+    overflow-y: scroll;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #ff4040;
+}
+.Eadd_user_panel{
+    padding: 40px;
+    margin-bottom: 120px;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    left: 30%;
+    top:120px;
+    border: 1px solid #ff4040;
+    border-radius: 30px;
+    text-align: center;
+}
+.performance_panel{
+    padding:20px;
+    position: absolute;
+    top:100px;
+    width: 80%;
+    left: 10%;
+    height: auto;
+    border-top: 1px solid #ff4040;
+    border-bottom: 1px solid #ff4040;
+}
+.foot_page
+{
+
+    position: absolute;
+    top: 950px;
+    width: 80%;
+    left: 10%;
+    height: auto;
+
+}
+
+.loading{
+    z-index: 1000;
+    position: fixed;
+    border-radius: 10px;
+    top:30%;
+    left: 40%;
+    width: 20%;
+    height: auto;
+    background: #c0ff6d;
+    text-align: center;
+
+}.loading i{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/Cancel.png');
+    background-size: cover;
+ }
+
+ .orders_panel{
+     z-index: 100;
+     position: fixed;
+     border-radius: 10px;
+     top:30%;
+     left: 35%;
+     width: 30%;
+     height: auto;
+     border:  3px solid #ff4040;
+     background-color: #ffffff;
+     opacity: .8;
+     padding: 20px;
+     text-align: center;
+
+ }
+ .orders_panel i{
+     position: absolute;
+     top:10px;
+     right: 10px;
+     width: 30px;
+     height: 30px;
+     padding: 10px;
+     background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/Cancel.png');
+     background-size: cover;
+ }
+ .pop_result_panel
+{
+     z-index: 200;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-bottom: 10px;
+     position: fixed;
+     top: 200px;
+     width: 80%;
+     left: 10%;
+     height: auto;
+     margin-bottom: 100px;
+     background-color: #ffffff;
+     border: 2px solid #ff4040;
+     border-radius: 20px;
+
+}
+.pop_result_panel i{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-image: url('http://7xngw8.com1.z0.glb.clouddn.com/Cancel.png');
+    background-size: cover;
+}
+.Evertical_slide{
+    margin: 30px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.b_value_panel
+{
+    position: fixed;
+    left:20px;
+    top:150px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid cyan;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 20px;
+    opacity: .6;
+    font-size: 30px;
+    padding: 28px;
+    text-align: center;
+    -moz-transition: background-color 1s,opacity 1s,color 1s,border 1s;
+    -webkit-transition:  background-color 1s,opacity 1s,color 1s,border 1s;
+    transition: background-color 1s,opacity 1s,color 1s,border 1s ;
+
+}
+.b_value_panel:hover
+{
+    opacity: 1;
+    background-color: cyan;
+    color: #ff4040;
+    border:1px solid chartreuse;
+
+}
+
+
+

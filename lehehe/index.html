@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小贰乐呵呵</title>
+    <!--<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />-->
+    <meta name="viewport" content="user-scalable=no">
+    <link rel="Shortcut Icon" href="http://7xngw8.com1.z0.glb.clouddn.com/title.png">
+    <link href="style.css" rel="stylesheet">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="../datepicker/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lhh.js"></script>
+    <!--<script type="text/javascript" src="iscroll.js"></script>-->
+
+    <script type="text/javascript">
+        window.tmp_id='0';
+        window.user_id='0';
+        window.name='匿名抢手';
+        var flag=false;//是否已经展开评论
+        window.index=0;
+        $(function()
+        {
+            $(window).scroll(function(){
+                if($(document).scrollTop()>=$(document).height()-$(window).height()-1){
+                    lehehe_alert('正在给您加载更多 ');
+//                    $(document).scrollTop($(document).height()-$(window).height()-500);
+                    require_data();
+                }
+                });
+            daobidao_display_block();
+            get_url_parma();
+            $('.lehehe_alert').hide();
+            setTimeout(require_data,300);
+//            goods_display_block();
+
+
+//            $('.comment_panel').hide();
+        })
+
+
+//        function show_list()
+//        {
+//            $('.comment_list').show();
+//        }
+    </script>
+
+</head>
+<body>
+
+<div class="lehehe_alert">
+
+</div>
+
+    <div class="page_content">
+
+
+
+
+        <!--<div class="panel_list">-->
+
+            <!--<table>-->
+                <!--<tr>-->
+                    <!--<td width="20%"><img width="100" height="100" class="img-circle" src="http://img5.duitang.com/uploads/item/201410/06/20141006151406_HssfQ.png"></td>-->
+                    <!--<td width="40%">小二乐呵呵</td>-->
+                    <!--<td width="40%">2015/11/16 23:12</td>-->
+                <!--</tr>-->
+            <!--</table>-->
+
+            <!--<div class="panel_body">-->
+                <!--<img width="100%" src="http://img0.hao123.com/data/1_6f12d34ad5e910b680e18195dbd11969_0">-->
+            <!--</div>-->
+
+            <!--<table>-->
+                <!--<tr>-->
+                    <!--<td width="20%"><img width="40" height="40" class="img-rounded" src="http://7xobr7.com1.z0.glb.clouddn.com/up.png" >111</td>-->
+                    <!--<td width="20%"><img width="40" height="40" class="img-rounded" src="http://7xobr7.com1.z0.glb.clouddn.com/down.png" >222</td>-->
+                    <!--<td width="40%"></td>-->
+                    <!--<td width="20%"><button id="10010" onclick="switch_list('10010')">展开评论</button></td>-->
+                <!--</tr>-->
+            <!--</table>-->
+            <!--<div class="comment_panel 10010" >-->
+                <!--<div class="comment">-->
+                <!--<table>-->
+                    <!--<caption>贰友叨逼叨</caption>-->
+                    <!--<tbody class="comment_list 10010"></tbody>-->
+                    <!--<tr><td>王日天：</td><td>楼下是我儿子</td><td>1楼</td></tr>-->
+                    <!--<tr><td>叶良辰：</td><td>良辰必有重谢！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>赵日天：</td><td>老子能日天！</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+                    <!--<tr><td>龙傲天：</td><td>my name is dragon proud sky!</td><td>1楼</td></tr>-->
+
+                <!--</table>-->
+                    <!--</div>-->
+                <!--<table>-->
+                    <!--<tr>-->
+                        <!--<td width="80%">-->
+                            <!--<input name="comment" placeholder="吐槽点什么？">-->
+
+
+                        <!--</td>-->
+                        <!--<td > <button>评论</button></td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+
+    </div>
+
+
+</body>
+</html>
